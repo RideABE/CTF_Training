@@ -1,5 +1,14 @@
 # 2025-1-13 Misc初级 Write up
 
+## List
+
+- [x] 10金币 [LitCTF 2023]404notfound (初级) https://www.nssctf.cn/problem/3881
+- [x] 10金币 [LitCTF 2023]What_1s_BASE (初级) https://www.nssctf.cn/problem/3879
+- [x] 20金币 [HDCTF 2023]hardMisc https://www.nssctf.cn/problem/3796
+- [x] 10金币 [LitCTF 2023]Hex？Hex！(初级)  https://www.nssctf.cn/problem/3887
+- [x] 10金币 [LitCTF 2023]Is this only base?  https://www.nssctf.cn/problem/3968
+- [x] 10金币 [LitCTF 2023]就当无事发生 https://www.nssctf.cn/problem/3862
+
 ## 1. [LitCTF 2023]404notfound
 
 ### 1.1 题目描述
