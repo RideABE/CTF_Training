@@ -34,7 +34,7 @@ http://node7.anna.nssctf.cn:21388/index.php?wllm=
 
 - 我们尝试直接在等号后面添加flag
 
-![alt text](image.png)
+![alt text](images/image.png)
 
 - 猜测是php伪协议，以下是php伪协议的常用方法
 
@@ -48,15 +48,15 @@ http://node7.anna.nssctf.cn:21388/index.php?wllm=
 http://node7.anna.nssctf.cn:21388/index.php?wllm=php://filter/convert.base64-encode/resource=hint.php
 ```
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
 
 - 解码
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 - 解码后发现要去/test2222222222222.php文件
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 - 继续解码得到
 
@@ -121,7 +121,7 @@ NSSCTF{89291858-d079-4281-a5d5-8a43620126bb}
 -  我们通过～/Library/Application Support/minecraft/saves路径导入地图
 -  然后在地图里面找就可以了
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 - 别问，问就是把学校炸了......
 
