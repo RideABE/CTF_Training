@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Tue Mar 25 11:37:55 2025
+Invocation: foremost 666666.pcapng 
+Output directory: /Users/xulei/Desktop/Study/竞赛/CTF/CTF_Training/2024-2025学年春季学期/3.19-3.25/菜刀666/output
+Configuration file: /opt/homebrew/etc/foremost.conf
+------------------------------------------------------------------
+File: 666666.pcapng
+Start: Tue Mar 25 11:37:55 2025
+Length: Unknown
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00002778.zip 	      29 KB 	    1422689 	 
+Finish: Tue Mar 25 11:37:55 2025
+
+1 FILES EXTRACTED
+	
+zip:= 1
+------------------------------------------------------------------
+
+Foremost finished at Tue Mar 25 11:37:55 2025
