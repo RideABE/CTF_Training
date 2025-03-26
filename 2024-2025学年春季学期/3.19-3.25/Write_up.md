@@ -194,3 +194,19 @@ NSSCTF{I'm_Wh1sp3riNg_OuR_Lu11abY_f0r_Y0u_to_CoMe_B4ck_Home}
 - 接着我们再看尾巴的这段二进制，很明显这是一个png文件头的倒置，因此我们猜想jpg文件后跟了一个倒置的png文件
 
 ![mirror](images/mirror_2.png)
+
+- 我们使用py代码实现文件倒置
+
+```python
+with open('flag.jpg', 'rb') as f:
+    f.seek(7060)
+    data = f.read()
+reversed_data = data[::-1]
+ 
+with open('flag_final.png', 'wb') as f:
+    f.write(reversed_data)
+```
+
+##### 答案
+
+flag{Mirror_R3f3ct1on_H1dd3n_f14g}
